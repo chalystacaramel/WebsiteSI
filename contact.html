@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontak – Sistem Informasi Universitas Tanjungpura</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+        }
+
+        .navbar {
+            background-color: var(--primary-color);
+        }
+        .navbar .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+        }
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            color: #dcecff !important;
+        }
+
+        h1, h2, h5 {
+            color: #0d2e5a;
+            font-weight: 700;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(74,144,226,0.25);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #3a7ac0;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+        .nav-logo {
+        height: 35px;
+        width: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container px-4">
+
+        <!-- BRAND + LOGO -->
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+            <img src="logo-si.png" class="nav-logo me-2">
+            Sistem Informasi Universitas Tanjungpura
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">Pusat Pertanyaan</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="py-5" style="background-color:#f2f7ff; margin-top:60px;">
+    <div class="container px-5">
+        <h1 class="fw-bold text-center">Hubungi Kami</h1>
+    </div>
+</header>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+    <div class="container px-5">
+        <div class="row gx-5">
+
+            <!-- INFORMASI KONTAK -->
+            <div class="col-lg-5 mb-5">
+                <h2 class="mb-4">Informasi Kontak</h2>
+                <p class="mb-4">
+                    Jika Anda memiliki pertanyaan mengenai Program Studi Sistem Informasi, silakan hubungi kami melalui informasi berikut:
+                </p>
+
+                <h5>Alamat</h5>
+                <p>Fakultas FMIPA, Universitas Tanjungpura<br>Jalan Prof. Dr. H. Hadari Nawawi, Pontianak</p>
+
+                <h5>Email</h5>
+                <p><a href="mailto:si@untan.ac.id">si@untan.ac.id</a></p>
+
+                <h5>Sosial Media</h5>
+                <p>Instagram: sisfountan & hmsi_fmipauntan<br>Youtube: hmsiuntan</p>
+
+                <h5>Telepon</h5>
+                <p>(0561) 123456</p>
+
+                <h5>Jam Operasional</h5>
+                <p>Senin – Jumat<br>08.00 – 16.00 WIB</p>
+            </div>
+
+            <!-- FORM -->
+            <div class="col-lg-7">
+                <h2 class="mb-4">Kirim Pesan</h2>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nama Lengkap</label>
+                        <input class="form-control" type="text" placeholder="Masukkan nama Anda" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input class="form-control" type="email" placeholder="nama@email.com" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Pesan</label>
+                        <textarea class="form-control" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+                    </div>
+
+                    <button class="btn btn-primary px-4" type="submit">Kirim</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- MAP -->
+<section class="section bg-light">
+    <div class="container px-5 text-center">
+        <h2 class="mb-4">Lokasi</h2>
+        <p class="mb-4">
+            Gedung Baru FMIPA – Universitas Tanjungpura, Pontianak
+        </p>
+
+        <div class="ratio ratio-16x9 shadow rounded">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.310818263982!2d109.347918!3d-0.061039599999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d5945820df62b%3A0x8aeb9ad6afdd1fb!2sGedung%20Baru%20FMIPA%20UNTAN!5e0!3m2!1sid!2sid!4v1700220000000"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4" style="background-color:#4A90E2;">
+    <div class="container px-5 text-center text-white">
+        <p class="m-0">Copyright © Program Studi Sistem Informasi 2025</p>
+        <small>Privacy · Terms · Contact</small>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

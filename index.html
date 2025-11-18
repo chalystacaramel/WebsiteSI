@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistem Informasi Universitas Tanjungpura</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+    :root {
+        --primary-color: #4A90E2;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+
+    .navbar {
+        background-color: var(--primary-color);
+    }
+    .navbar .nav-link {
+        color: #fff !important;
+        font-weight: 500;
+    }
+    .navbar .nav-link:hover,
+    .navbar .nav-link.active {
+        color: #dcecff !important;
+    }
+
+    h1, h2, h3, h5 {
+        color: #0d2e5a;
+        font-weight: 700;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .fokus-img {
+    width: 80px;       
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    }
+
+    .nav-logo {
+    height: 35px;
+    width: auto;
+    }
+
+    .keahlian-section {
+        background: #fff; 
+        padding: 80px 0;
+    }
+
+    .keahlian-card {
+        background: #fff;
+        border-radius: 30px;
+        padding: 50px 30px;
+        text-align: center;
+        height: 100%;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        transition: transform .2s ease;
+    }
+
+    .keahlian-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .keahlian-card img {
+        width: 90px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .keahlian-card h5 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #0d2e5a;
+    }
+
+    .keahlian-card p {
+        font-size: 1.1rem;
+        color: #333;
+        flex-grow: 1; 
+    }
+
+    .equal-row > div {
+        display: flex;
+    }
+</style>
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container px-4">
+
+        <!-- BRAND + LOGO -->
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+            <img src="logo-si.png" class="nav-logo me-2">
+            Sistem Informasi Universitas Tanjungpura
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">Pusat Pertanyaan</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<section id="beranda"></section>
+
+<!-- HERO -->
+<header class="py-5" style="background-color:#f2f7ff; margin-top:60px;">
+    <div class="container px-5 text-center">
+        <h1 class="mb-4">Selamat Datang</h1>
+        <h1 class="mb-4">Di Website Profil Program Studi Sistem Informasi</h1>
+        <h4 class="text-muted">Continuously Contributing, No Matter How Small !!!</h4>
+
+        <img src="B1.png" 
+        class="img-fluid mt-4 rounded shadow"
+        style="max-width: 900px;"
+        alt="Gambar Hero">
+    </div>
+</header>
+
+<!-- PROFIL SINGKAT -->
+<section class="section bg-light">
+    <div class="container px-5">
+        <h2 class="text-center mb-4 fs-1">Profil Singkat Prodi Sistem Informasi</h2>
+
+        <p class="fs-5">
+            Program Studi Sistem Informasi Universitas Tanjungpura merupakan salah satu program studi strata 1 (S-1)
+            yang berada di Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA). 
+            Fokus pendidikan dan pembelajaran pada Program Studi Sistem Informasi Universitas Tanjungpura
+            berada pada bidang keahlian Manajemen Sistem Informasi, Intelejensi Bisnis, 
+            dan Pengembangan Perangkat Lunak.
+        </p>
+
+        <h3 class="mt-5 fs-2 text-center">Akreditasi</h3>
+        <p class="fs-5">
+            Program studi Sistem Informasi mendapatkan predikat akreditasi 
+            <b>BAIK SEKALI</b> oleh Lembaga Akreditasi Mandiri Informatika dan Komputer  
+            (LAM-INFOKOM).  
+            <br>No. SK: <b>077/SK/LAM-INFOKOM/Ak/S/VIII/2023</b>.
+        </p>
+
+        <h3 class="mt-5 fs-2 text-center">Kualifikasi Dosen</h3>
+        <p class="fs-5">
+            Dosen Program Studi Sistem Informasi memiliki latar belakang pendidikan strata 2 (S-2) 
+            di bidang Informatika, Manajemen Sistem Informasi, Matematika dan Ilmu Komputer, 
+            Informatika dan Sistem Informasi, Teknik dan Teknologi Informasi, Sistem Informasi, 
+            serta Teknologi Informasi.
+        </p>
+    </div>
+</section>
+
+<section id="tentang"></section>
+
+<!-- VISI & MISI -->
+<section class="section">
+    <div class="container px-5">
+
+        <h2 class="mb-4 fs-1">Visi</h2>
+        <p class="mb-4 fs-5">
+            “Program Studi yang inovatif dan adaptif dalam mengembangkan keilmuan dan mengelola sistem informasi 
+            guna mendukung transformasi digitalisasi potensi kekayaan lokal.”
+        </p>
+
+        <h2 class="mt-5 mb-4 fs-1">Misi</h2>
+        <ol class="fs-5">
+            <li>Mengembangkan pendidikan di bidang sistem informasi yang inovatif.</li>
+            <li>Melaksanakan penelitian kompetitif pada lingkungan tropis.</li>
+            <li>Memberikan kontribusi pengabdian kepada masyarakat.</li>
+            <li>Menjalin kemitraan dengan pemerintah, industri, dan institusi.</li>
+        </ol>
+
+    </div>
+</section>
+
+<!-- SEJARAH -->
+<section class="section bg-light">
+    <div class="container px-5">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold fs-1">Sejarah Program Studi Sistem Informasi</h2>
+        </div>
+
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <p class="fs-5">
+                    Program Studi Sistem Informasi berdiri sejak terbitnya Keputusan Menteri 
+                    Nomor: 442/E.E2/DT/2014 tanggal 19 Mei 2014.  
+                    Program Studi Sistem Informasi menerapkan Kurikulum Berbasis Kompetensi (KBK) 
+                    saat awal pendirian dan menerima mahasiswa baru pada semester gasal tahun akademik 2014/2015.
+                </p>
+                <p class="fs-5">
+                    Jumlah mahasiswa angkatan pertama adalah 30 orang dan hanya terdiri dari satu jalur seleksi SBMPTN, 
+                    karena waktu pendirian telah melewati jadwal SNMPTN dan belum siap menerima jalur seleksi mandiri.
+                </p>
+                <p class="fs-5">
+                    Pada tahun kedua, Program Studi Sistem Informasi mulai menerima mahasiswa melalui tiga jalur seleksi:  
+                    SNMPTN, SBMPTN, dan Mandiri.
+                </p>
+            </div>
+
+            <img src="SejarahSI.png"
+            class="img-fluid rounded shadow"
+            style="max-width: 520px;"
+            alt="Gambar Sejarah">
+
+    </div>
+</section>
+
+<!-- FOKUS KEAHLIAN -->
+<section class="keahlian-section">
+    <div class="container px-5">
+
+    <h2 class="text-center mb-5 fs-1 fw-bold">Fokus Keahlian</h2>
+
+    <div class="row gx-5 equal-row">
+
+      <!-- Manajemen Sistem Informasi -->
+      <div class="col-lg-4 mb-4">
+        <div class="keahlian-card">
+          <img src="MSI.png" alt="Ikon Manajemen Sistem Informasi">
+          <h5>Manajemen Sistem Informasi</h5>
+          <p>
+            Mempelajari interaksi sistem-sistem informasi yang mengumpulkan dan
+            mengolah data untuk menyediakan informasi bagi seluruh tingkatan manajemen.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pengembangan Perangkat Lunak -->
+      <div class="col-lg-4 mb-4">
+        <div class="keahlian-card">
+          <img src="RPL.png" alt="Ikon Pengembangan Perangkat Lunak">
+          <h5>Pengembangan Perangkat Lunak</h5>
+          <p>
+            Serangkaian aktivitas yang mencakup pembuatan, perancangan,
+            penerapan, dan dukungan perangkat lunak.
+          </p>
+        </div>
+      </div>
+
+      <!-- Inteligensi Bisnis -->
+      <div class="col-lg-4 mb-4">
+        <div class="keahlian-card">
+          <img src="Bisnis.png" alt="Ikon Inteligensi Bisnis">
+          <h5>Inteligensi Bisnis</h5>
+          <p>
+            Mengkombinasikan analisis bisnis, data mining, dan visualisasi data
+            untuk mengubah data mentah menjadi informasi pendukung keputusan.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SELEKSI MASUK -->
+<section class="section bg-light">
+    <div class="container px-5">
+
+        <h2 class="mb-4 fs-1 text-center">Seleksi Masuk Program Sarjana</h2>
+
+        <h5 class="fs-3">1. Seleksi Program Berdasarkan Prestasi (SNBP)</h5>
+        <p class="fs-5">
+            Seleksi tanpa ujian tulis secara nasional.
+            <br>
+            Info lengkap: <a href="https://snpmb.bppp.kemdikbud.go.id/" target="_blank">Website SNPMB</a>
+        </p>
+
+        <h5 class="mt-4 fs-3">2. Seleksi Nasional Berbasis Tes (SNBT)</h5>
+        <p class="fs-5">
+            Seleksi melalui tes nasional serentak.
+            <br>
+            Info lengkap: <a href="https://snpmb.bppp.kemdikbud.go.id/" target="_blank">Website SNPMB</a>
+        </p>
+
+        <h5 class="mt-4 fs-3">3. Seleksi Mandiri</h5>
+        <p class="fs-5">
+            Seleksi ujian tulis oleh Universitas Tanjungpura.
+            <br>
+            Info lengkap: <a href="https://scmb.untan.ac.id/" target="_blank">SCMB UNTAN</a>
+        </p>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4 text-center text-white" style="background-color:#4A90E2; width:100%;">
+    <p class="m-0">Copyright © Program Studi Sistem Informasi 2025</p>
+    <small>Privacy · Terms · Contact</small>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
