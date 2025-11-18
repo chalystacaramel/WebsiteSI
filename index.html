@@ -12,7 +12,13 @@
     :root {
         --primary-color: #4A90E2;
     }
-
+        
+    .hero-img {
+        width: 100%;
+        max-width: 600px; /* aman untuk layar kecil & besar */
+        height: auto;
+    }
+        
     body {
         min-height: 100vh;
         display: flex;
@@ -144,11 +150,7 @@
         <h1 class="mb-4">Selamat Datang</h1>
         <h1 class="mb-4">Di Website Profil Program Studi Sistem Informasi</h1>
         <h4 class="text-muted">Continuously Contributing, No Matter How Small !!!</h4>
-
-        <img src="B1.png" 
-        class="img-fluid mt-4 rounded shadow"
-        style="max-width: 900px;"
-        alt="Gambar Hero">
+        <img src="B1.png" class="hero-img img-fluid mt-4 rounded shadow" alt="Gambar Hero">
     </div>
 </header>
 
